@@ -1,18 +1,26 @@
-h1 {
-    color:#fdf0d5;
-}
-
 p{
     color:#003049;
 }
 
 BODY {
-    background-color:#780000;
+    background-color:#b28080d6;
 }
 
+#box{
+     background-color: blue;
+}
+.heading{
+    color:red;
+    text-align:center ;
+    text-decoration:underline;
+}
 button{
-       color:#c1121f;
-       background-color:#669bbc;
+       background-color:green;
+} 
+p{
+    text-align:center;
 }
-
+a{
+    text-decoration: none;
+}
   
