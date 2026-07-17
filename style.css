@@ -23,4 +23,35 @@ p{
 a{
     text-decoration: none;
 }
-  
+#HeadingFour{
+             color:red;
+             text-align:center;
+             text-decoration:blue wavy underline;
+             font-weight:bolder;
+}
+#HeadingFive{
+             color:red;
+             text-align:center;
+             text-decoration:green wavy underline;
+             font-weight:300;
+}
+#HeadingSix{
+             color:red;
+             text-align:center;
+             text-decoration:yellow wavy underline;
+             font-weight:600;
+}
+#one{
+    font-size:24px;
+    line-height:16px;
+    text-transform:capitlize;
+    font-family:arial;
+}
+
+#two{
+    font-size:18px;
+    line-height:18px;
+    text-transform:capitilize;
+    font-family:capitalize;
+}
+     
