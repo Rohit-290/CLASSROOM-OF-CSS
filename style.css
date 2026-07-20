@@ -3,12 +3,10 @@ p{
 }
 
 BODY {
-    background-color:#c9d555d6;
+    background-color:#dfdfd9d6;
 }
 
-#box{
-     background-color: blue;
-}
+
 .heading{
     color:red;
     text-align:center ;
@@ -55,21 +53,34 @@ a{
     font-family:capitalize;
 }
 
-#box{
-       height:50px;
-       width:80px;
-       background-color:deeppink;
-       padding:20px;
-       margin:10px;
-       border:5px dashed grey; 
-}
      
 #tiffin{
-       height:50px;
-       width:80px;
-       background-color:deeppink;
+       height:100px;
+       width:100px;
        padding:20px;
        margin:10px;
-       border:5px dashed grey; 
+       display:inline;
+       background-color:rgba(42,161,165,0.5)
+    
+}
+
+#box{
+       height:100px;
+       width:100px;
+       background-color:brown;
+       padding:20px;
+       margin:10px;
+       display:inline;
+       visibility:hidden;
+       
+}
+
+#lunch{
+       height:100px;
+       width:100px;
+       background-color: rgba(42,161,165,0.75);
+       padding:20px;
+       margin:10px;
+       display:inline;
 }
      
