@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #2f4550;
+    background-color:white
 }
 
 #two{
@@ -38,8 +38,9 @@ button{
     width:100px;
     background-color:rgba(50,203,220,0.5);
     border-width:4px;
-    border-color:blanchedalmond;
+    border-color:rgb(21, 136, 198);
     border-style: solid;
+    display:inline-block;
 }
 
 #beta{
@@ -48,6 +49,8 @@ button{
     background-color:rgba(255,249,149,0.5);
     border-color:coral;
     border-style: solid;
+    display: inline-block;
+    border-width:4px;
 }
 
 #gamma{
@@ -56,6 +59,8 @@ button{
     background-color:rgba(249,4,4,0.5);
     border-color:gold;
     border-style: solid;
+    display: inline-block;
+    border-width:4px;
 }
 
 main{
@@ -65,5 +70,8 @@ main{
 footer{
        text-align:center;
        color:blanchedalmond;
+       background-color:black;
 }
+
+
 
