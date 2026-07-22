@@ -26,7 +26,9 @@ a{
     height:60px;
     font-size:20px;
     border-radius:8px;
-   
+    position:fixed;
+    top: 0px;   
+    width: 100vw;
 }
 
 button{
@@ -73,5 +75,8 @@ footer{
        background-color:black;
 }
 
+#zeta{
+     color:black
+}
 
 
