@@ -1,0 +1,12 @@
+div{
+    height:300px ;
+    width: 300px;
+    background-image: url("nature.jpg");
+    background-size:cover;
+    color : whitesmoke;
+    position: fixed;
+    right:0px;
+    top: 60px;
+    text-align:center;
+    font-size: 40px;
+}
