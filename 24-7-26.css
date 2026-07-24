@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+
+#container{
+           height: 900px;
+           width: 800px;   
+           display: flex;
+           flex-direction: row;  
+           justify-content: space-evenly;  
+           
+}
+
+div{
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#alpha{
+       background-color: cornflowerblue;
+       height: 120px;
+       width: 120px;
+}
+
+#beta{
+       background-color:darkolivegreen;
+       height: 120px;
+       width: 120px;
+}
+
+#gamma{
+       background-color:hotpink;
+       height: 120px;
+       width: 120px;
+}
+
+#delta{
+       background-color:crimson;
+       height: 120px;
+       width: 120px;
+}
+
+#sigma{
+       background-color:darkorange;
+       height: 120px;
+       width: 120px;
+         
+}
