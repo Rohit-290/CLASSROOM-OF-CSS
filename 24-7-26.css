@@ -7,7 +7,10 @@
            width: 800px;   
            display: flex;
            flex-direction: row;  
-           justify-content: space-evenly;  
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items:center;
+           align-content: center;
            
 }
 
@@ -20,31 +23,52 @@ div{
 
 #alpha{
        background-color: cornflowerblue;
-       height: 120px;
-       width: 120px;
+       height: 160px;
+       width: 160px;
+       
 }
 
 #beta{
        background-color:darkolivegreen;
-       height: 120px;
-       width: 120px;
+       height: 160px;
+       width: 160px;
+      
 }
 
 #gamma{
        background-color:hotpink;
-       height: 120px;
-       width: 120px;
+       height: 160px;
+       width: 160px;
+      
 }
 
 #delta{
        background-color:crimson;
-       height: 120px;
-       width: 120px;
+       height: 160px;
+       width: 160px;
+       
 }
 
 #sigma{
        background-color:darkorange;
-       height: 120px;
-       width: 120px;
+       height: 160px;
+       width: 160px;
+    
+         
+}
+
+#eta{
+       background-color:brown;
+       height: 160px;
+       width: 160px;
+      
+         
+}
+
+#epsilon{
+       background-color:indigo;
+       height: 160px;
+       width: 160px;
+      
          
 }

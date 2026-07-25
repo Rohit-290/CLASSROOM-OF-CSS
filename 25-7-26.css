@@ -1,0 +1,39 @@
+*{
+  text-decoration: none;
+}
+
+li{
+   list-style-type: none;
+   display:inline;
+}
+
+#eta{
+     color:crimson;
+     position: relative;
+     top:0px;
+
+}
+
+#alpha{
+       background-color:bisque;
+       display: flex;
+       justify-content:space-evenly; 
+} 
+
+#beta{
+     background-color:lightpink;
+     height:600px;
+     width:600px;
+     display:flex;
+     justify-content: center;
+
+
+}
+
+#gamma{
+     background-color:darkgoldenrod;
+     height:300px;
+     width:300px;
+     align-self: center;
+    
+}
