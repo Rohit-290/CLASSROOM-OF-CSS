@@ -1,0 +1,30 @@
+*{
+    background-color:#1C110A;
+}
+
+div{
+    background-color:#1C110A;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 250px;
+    left: 630px;
+    border: 20px #E4D6A7;
+    border-style: solid;
+    border-top: 20px solid #50A2A7;
+    animation-name: Loading;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s; 
+}
+
+@keyframes Loading{
+     from{
+         transform: rotate(0deg);
+    }
+       to{
+         transform: rotate(360deg);    
+    }
+}

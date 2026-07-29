@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+}
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: darkred;
+    position: relative;
+    top: 250px;
+    left: 650px;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 10ms;
+    
+ }
+
+@keyframes box {
+     0% {
+         background-color: rgba(229, 12, 8, 0.708);
+         left: 20px;
+    }
+     10%  {
+         background-color:rgb(213, 68, 19);
+    }
+     20%  {
+         background-color:rgb(215, 65, 10);
+    }
+     30%  {
+         background-color:rgb(85, 207, 255);
+    }
+     40%  {
+         background-color:rgb(7, 122, 199);
+    }
+     50%  {
+         background-color:rgb(1, 30, 196);
+    }
+     60%  {
+         background-color:rgb(23, 7, 207);
+    }
+     70%  {
+         background-color:rgb(13, 131, 33);
+    }
+     80%  {
+         background-color:rgb(16, 235, 23);
+    }
+         
+     90%  {
+         background-color:rgb(85, 255, 96);
+    }
+     100%  {
+         background-color:rgb(26, 141, 9);
+         left: 1190px;
+    }
+    
+}
+
+
