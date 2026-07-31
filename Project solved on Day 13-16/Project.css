@@ -10,6 +10,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content:space-evenly;
 }
 
 /* -------Box1-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
@@ -57,21 +58,114 @@
 
 .nav-search{
   display: flex;
-  align-items: center;
+  justify-content:space-evenly; 
+  height: 38px;
+  width: 850px;
+  border-radius: 4px;
+  border: none;
 }
 
 .search-dropdown{
-    height: 38.4px;
-    width: 45px;
+    height: 40px;
+    width: 55px;
+    background-color: #E6E6E6;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
 }
 
 .search-input{
     height: 38px;
-    width: 338.91px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
 }
 
 .search-icon{
     height: 40px;
     width: 45px;
     background-color: rgb(234, 181, 66);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+/* -------Box4-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.nav-lang{
+    height: 53px;
+    width: 69px;
+    display:  flex;
+    align-items: center;
+}
+
+.lang{
+    height: 10px;
+    width: 12px;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-right: 4px;
+   
+}
+
+.flag-icon{
+    height: 45px;
+    width: 45px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    font-weight:700px;
+}
+
+/* -------Box5&6-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.nav-accounts{
+    height: 50px;
+    width: 113px;
+    border: none;
+    background-color: #0f1111;
+    color: #FFFFFF;  
+}
+
+span{
+    font-size: 0.7rem;  
+    
+}
+
+.acc-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.acc-dropdown{
+    background-color: #0f1111;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 0px;
+    display: flex;
+
+}
+
+/* -------Box7-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.nav-cart{
+    height: 50px;
+    width: 59px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 29px;
 }
