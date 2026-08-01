@@ -2,6 +2,18 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box; 
+    text-decoration: none;
+}
+a{
+    color: #FFFFFF;
+}
+
+.mar{
+    margin: 5px 0 6px 0;
+}
+
+.pad1{
+    padding: 8px 5px;
 }
 
 .navbar{
@@ -168,4 +180,259 @@ span{
 
 .nav-cart i{
     font-size: 29px;
+}
+
+/* --------------------x------P------------N---------------L--------------x----------------------------------------------x--------------------------------------x- */
+/* --------------------x------------A-------------E------------------------x----------------------------------------------x--------------------------------------x- */
+
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #232f3e;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+
+.panel-shop{
+    height: 39px;
+    width: 80%;
+    display:flex;
+    align-items: center;
+
+}
+
+/* -------Box1-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+ 
+.pan-ham{
+    width: 58px;
+    margin-left: 5px;
+}
+
+.pan-third{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pan-fourth{
+    height: 12px;
+    width: 23px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+/* -------Box2-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+
+.pan-deals{
+    width: 105px;    
+    
+}
+
+.pan-five{
+    width: 95px;
+}
+
+/* -------Box3-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.pan-video{
+    width: 97px;
+   
+}
+
+.pan-six{
+    height: 28px;
+    width: 87px;
+}
+
+/* -------Box4-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.pan-gift{
+    width: 83px;
+   
+}
+
+.pan-seven{
+    height: 28px;
+    width: 73px;
+}
+
+/* -------Box5-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.pan-sell{
+    width: 43px;
+   
+}
+
+.pan-eight{
+    height: 28px;
+    width: 33px;
+}
+
+/* -------Box6-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.pan-cust{
+    width: 130px;
+   
+}
+
+.pan-nine{
+    height: 28px;
+    width: 120px;
+}
+
+/* -------Box7-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.pan-reg{
+    width: 72px;
+ 
+}
+
+.pan-ten{
+    height: 28px;
+    width: 62px;
+
+}
+
+/* -------Box8-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.widget{
+    width: 15%;
+   
+}
+
+.pan-eleven{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* --------------------x------H------------R-----------------------------x----------------------------------------------x--------------------------------------x- */
+/* --------------------x------------E-------------O------------------------x----------------------------------------------x--------------------------------------x- */
+
+.hero-section{
+    background-image: url(heroimage.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 0.85rem;
+    padding: 10px 14px;
+}
+
+.hero-msg{
+    background-color: #f5f5f6;
+    color: #0f1111;
+    height: 40px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 310px;
+}
+
+.hero-link{
+    color: #2162a1;
+}
+
+.hero-link:hover{
+    text-decoration: underline;
+}
+
+/* --------------------x------C------------N------------E----------T-------x----------------------------------------------x--------------------------------------x- */
+/* --------------------x------------O-------------T----------N--------------x----------------------------------------------x--------------------------------------x- */
+
+
+.content-section{
+    height: 900px;
+    width: 100%;
+    background-color: #d5a8f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+h2{
+    color: #0f1111;
+}
+
+.Box1{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+    margin-bottom: 450px;
+    
+
+}
+
+.Box2{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+  
+
+}
+
+.Box3{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+   
+
+}
+
+.Box4{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+   
+
+}
+
+.Box5{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+
+}
+
+.Box6{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+
+
+}
+
+.Box7{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+   
+
+}
+
+.Box8{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+   
+
+} 
+
+.boxi{
+    height: 80%
+    width: 378px;
+    background-size: cover;
 }
