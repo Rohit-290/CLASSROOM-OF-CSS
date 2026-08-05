@@ -24,7 +24,7 @@ li{
 }
 
 .navbar{
-    height: 60px;
+    height: 70px;
     background-color: #0f1111;
     color: #ffffff;
     display: flex;
@@ -38,13 +38,12 @@ li{
 .nav-logo{
     height: 50px;
     width: 113px;
+    background-size: cover;
 }
 
 .logo{
-    background-image: url(amazon_logo.png);
-    height: 50px;
-    width: 113px;
-    background-size: cover;
+    height: 30px;
+    width: 103px;
 }
 
 .border{
@@ -120,7 +119,7 @@ li{
 .nav-lang{
     height: 53px;
     width: 69px;
-    display:  flex;
+    display: flex;
     align-items: center;
 }
 
@@ -619,14 +618,17 @@ h2{
 
 .link-c{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #131a22;
     margin-top: 30px;
-    height: 334px;
+    height: 354px;
 }
 
 .link-c h5{
     color: #DDDDDD;
     font-size: 0.86rem;
+    align-self:f
 }
 
 .link-c span{
@@ -634,4 +636,103 @@ h2{
     font-size: 0.86rem;
 }
 
+.ul1{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+.ul2{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 170px;
+}
+
+.ul3{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+.ul4{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+.ul5{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+.ul6{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+.ul7{
+    display: flex;
+    flex-direction: column;
+    align-self: first baseline;
+    margin-top: 60px;
+    width: 150px;
+}
+
+/* -------Box5-------------x------------------------------------------------x----------------------------------------------x--------------------------------------x- */
+
+.nav-last{
+    height: 117px;
+    background-color: #131a22;
+    color: #DDDDDD;
+}
+
+.last-one{
+    height: 39px;
+    font-size: 0.78rem;
+    background-color: #131a22;
+    color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.la1{
+    margin-right: 13px;
+}
+
+.la2{
+    margin-right: 13px;
+}
+
+.la3{
+    margin-right: 13px;
+}
+
+.la4{
+    margin-right: 13px;
+}
+
+.last-two{
+    height: 18px ;
+    font-size: 0.78rem;
+    background-color: #131a22;
+    color: #DDDDDD;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
